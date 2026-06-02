@@ -396,6 +396,17 @@ html, body {
 .thankyou-account { font-size: 0.9rem; color: rgba(255,255,255,0.4); }
 .thankyou-logo { display: flex; align-items: center; justify-content: center; }
 
+@keyframes floatLogo {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
+
+.thankyou-logo img {
+  animation: floatLogo 3.5s ease-in-out infinite;
+  filter: drop-shadow(0 8px 16px rgba(0, 179, 255, 0.25));
+}
+
 /* ============================================
    ETAPA 2 — NEW COMPONENTS
    ============================================ */
