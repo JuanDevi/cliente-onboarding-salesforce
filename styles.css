@@ -817,7 +817,7 @@ html, body {
 .stakeholder-card:hover { transform: translateY(-2px); }
 
 .stakeholder-avatar {
-  width: 42px; height: 42px;
+  width: 56px; height: 56px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--sf-electric-blue-30), var(--sf-electric-blue-50));
   color: white;
@@ -825,8 +825,8 @@ html, body {
   align-items: center;
   justify-content: center;
   font-weight: 700;
-  font-size: 14px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 12px;
   overflow: hidden;
   flex-shrink: 0;
 }
